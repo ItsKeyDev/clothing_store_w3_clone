@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <!-- sidebar -->
+      <div id="sidebar">
+        <!-- logo -->
+        <h2 id="logo" style="padding-left: 16px">LOGO</h2>
+        <!-- main-sidebar -->
+        <div id="main-sidebar">
+          <ul id="nav">
+            <li><a href="#"> Shirts</a></li>
+            <li><a href="#"> Dresses</a></li>
+            <li style="position: relative">
+              <a href="#" style="color: #000"> Jeans</a>
+              <i class="fa-sharp fa-solid fa-angle-down" id="icon-down"></i>
+            </li>
+            <li><a href="#"> Jacket</a></li>
+            <li><a href="#">Gymwear</a></li>
+            <li><a href="#"> Blazers</a></li>
+            <li><a href="#"> Shoes</a></li>
+          </ul>
+        </div>
+        <!-- sub-sidebar -->
+        <div id="sub-sidebar">
+          <ul>
+            <li><a href=""> Contact</a></li>
+            <li><a href=""> Newsletter</a></li>
+            <li><a href=""> Subscribe</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <!-- content -->
+      <div id="content">
+        <!-- content-header -->
+        <div id="content-header">
+          <div id="content-heading">
+            <h2 style="font-weight: 300">Jeans</h2>
+          </div>
+          <div id="content-header-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!-- slider -->
+        <div id="slider">
+          <img src="./assets/images/jeans.jpg" alt="jeans" />
+          <div id="slider-content">
+            <p id="main-slider-content">New arrivals</p>
+            <p id="sub-slider-content">COLLECTION 2016</p>
+            <a id="shop-now">Shop Now</a>
+          </div>
+        </div>
+        <!-- product -->
+        <div id="collection">
+          <p id="collection-heading">8 items</p>
+          <!-- list-product -->
+          <div id="list-product">
+            <div class="product-item">
+              <img src="./assets/images/jeans1.jpg" alt="" class="produc-img" />
+              <p class="name-product">Ripped Skinny Jeans</p>
+              <span class="price">$24.99</span>
+            </div>
+            <div class="product-item">
+              <span class="tag">New</span>
+              <div class="img">
+                <img
+                  src="./assets/images/jeans2.jpg"
+                  alt=""
+                  class="produc-img"
+                />
+                <div class="buy-now">
+                  <span>Buy Now</span>
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+              </div>
+              <p class="name-product">Mega Ripped Jeans</p>
+              <span class="price">$19.99</span>
+            </div>
+            <div class="product-item">
+              <img src="./assets/images/jeans3.jpg" alt="" class="produc-img" />
+              <p class="name-product">Washed Skinny Jeans</p>
+              <span class="price">$20.50</span>
+            </div>
+            <div class="product-item">
+              <img src="./assets/images/jeans4.jpg" alt="" class="produc-img" />
+              <p class="name-product">Vintage Skinny Jeans</p>
+              <span class="price">$14.99</span>
+            </div>
+            <div class="product-item">
+              <img src="./assets/images/jeans1.jpg" alt="" class="produc-img" />
+              <p class="name-product">Ripped Skinny Jeans</p>
+              <span class="price">$24.99</span>
+            </div>
+            <div class="product-item">
+              <img src="./assets/images/jeans2.jpg" alt="" class="produc-img" />
+              <p class="name-product">Mega Ripped Jeans</p>
+              <span class="price">$19.99</span>
+            </div>
+            <div class="product-item">
+              <span class="tag">Sale</span>
+              <div class="img">
+                <img
+                  src="./assets/images/jeans3.jpg"
+                  alt=""
+                  class="produc-img"
+                />
+                <div class="buy-now">
+                  <span>Buy Now</span>
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+              </div>
+              <p class="name-product">Washed Skinny Jeans</p>
+              <span class="price">$20.50</span>
+            </div>
+            <div class="product-item">
+              <img src="./assets/images/jeans4.jpg" alt="" class="produc-img" />
+              <p class="name-product">Vintage Skinny Jeans</p>
+              <span class="price">$14.99</span>
+            </div>
+          </div>
+        </div>
+        <!-- subscribe -->
+        <div id="subscribe">
+          <h1>Subscribe</h1>
+          <p>To get special offers and VIP treatment:</p>
+          <input
+            type="email"
+            name="email"
+            id="input-email"
+            placeholder="Enter your Email:"
+          />
+          <button id="subscribe-btn">Subscribe</button>
+        </div>
+        <!-- footer -->
+        <div id="footer">
+          <div id="contact">
+            <h2 class="footer-heading">Contact</h2>
+            <p>Questions? Go ahead.</p>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Subjet" />
+            <input type="text" placeholder="Message" />
+            <button>Send</button>
+          </div>
+          <div id="about">
+            <h2 class="footer-heading">About</h2>
+            <a href="#">About us</a>
+            <a href="#">We're hiring</a>
+            <a href="#">Support</a>
+            <a href="#">Find Store</a>
+            <a href="#">Shipment</a>
+            <a href="#">Payment</a>
+            <a href="#"> Gift Card</a>
+            <a href="#">Return</a>
+            <a href="#">Help</a>
+          </div>
+          <div id="store-info">
+            <div class="info-item">
+              <h2 class="footer-heading">Store</h2>
+              <ul>
+                <li><i class="fa-solid fa-location-dot"></i>Company</li>
+                <li><i class="fa-solid fa-phone"></i>0902863248</li>
+                <li><i class="fa-solid fa-envelope"></i>Mail</li>
+              </ul>
+            </div>
+            <div class="info-item">
+              <h2 class="footer-heading">We accept</h2>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-credit-card"></i>
+                  Amex
+                </li>
+                <li>
+                  <i class="fa-regular fa-credit-card"></i>
+                  Credit Card
+                </li>
+              </ul>
+            </div>
+            <div id="social-icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <div id="copyright">Powered by <u>w3.css</u></div>
+      </div>
+    </div>
+  </body>
+</html>
